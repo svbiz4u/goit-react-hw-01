@@ -1,0 +1,27 @@
+.table {
+    width: 332px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 60px;
+  }
+  
+  .head {
+    background-color: rgb(39, 38, 38);
+    color: azure;
+  }
+  
+  .row td {
+    width: calc(100% / 3);
+    text-align: center;
+  
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .row:nth-child(even) {
+    background-color: gray;
+  }
+  
+  .row:nth-child(odd) {
+    background-color: rgb(204, 203, 203);
+  }

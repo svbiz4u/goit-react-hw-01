@@ -1,0 +1,44 @@
+.cardwrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    margin: 0 auto;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkgray;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .img {
+    max-width: 200px;
+    border-radius: 100%;
+    background-color: rgb(41, 41, 41);
+    margin-bottom: 28px;
+  }
+  
+  .list {
+    display: flex;
+    justify-content: space-between;
+  
+    background-color: lightgrey;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    justify-content: center;
+    width: calc(100% / 3);
+    padding: 20px;
+    text-align: center;
+  }

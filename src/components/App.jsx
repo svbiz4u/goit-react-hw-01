@@ -1,11 +1,12 @@
 // import { useState } from 'react'
-import '../components/App.css';
+// import '../components/App.css';
 import Profile from '../components/Profile/Profile.jsx';
-import userData from '../userData.json';
 import FriendList from './FriendList/FriendList.jsx';
-import friends from '../friends.json';
 import TransactionHistory from './TransactionHistory/TransactionHistory.jsx';
-import transactions from '../transactions.json'
+
+import userData from '../userData.json';
+import transactions from '../transactions.json';
+import friends from '../friends.json';
 
 function App() {
   return (
@@ -23,4 +24,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

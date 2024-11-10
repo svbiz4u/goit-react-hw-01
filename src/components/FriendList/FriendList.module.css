@@ -1,14 +1,14 @@
 .list {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 32px;
-  }
-  
-  .item {
-    border: 1px solid darkolivegreen;
-    border-radius: 10px;
-    list-style-type: none;
-    padding: 5px;
-  }
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.item {
+  border: 1px solid darkolivegreen;
+  border-radius: 10px;
+  list-style-type: none;
+  padding: 5px;
+}
