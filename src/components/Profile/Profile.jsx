@@ -1,7 +1,7 @@
 
 import s from './Profile.module.css'
 
-const Profile = ({username, tag, location, image, stats : {followers, views, likes} })=> {
+const Profile = ({name, tag, location, image, stats : {followers, views, likes} })=> {
 
 return (
    <div className={s.container}>
@@ -10,7 +10,7 @@ return (
             src={image} className={s.img}
             alt= "User avatar"
             />
-            <p> {username}</p>   
+            <p> {name}</p>   
             <p> @{tag}</p>
             <p>{location}</p>
         </div>
