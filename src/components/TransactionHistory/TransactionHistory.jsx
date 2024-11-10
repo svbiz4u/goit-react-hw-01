@@ -1,6 +1,26 @@
-const TransactionHistory = () => {
+const TransactionHistory = ({ items }) => {
+   const tableData = items.map (({ id, type, amount, currency }) =>
+      <tr key={id}>
+      <td>{type}</td>
+      <td>{amount}</td>
+      <td>{currency}</td>
+      </tr>
+  );
+
    return (
-    <h2>TransactionHistory</h2>
+      <table>
+   <thead>
+      <tr>
+      <th>Type</th>
+      <th>Amount</th>
+      <th>Currency</th>
+       </tr>
+  </thead>
+
+  <tbody>
+    {tableData}
+  </tbody>
+</table>
    ) 
 }
 export default TransactionHistory

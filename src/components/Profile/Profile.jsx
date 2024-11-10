@@ -1,14 +1,14 @@
-const Profile = ({username, tag, location, avatar, stats : {followers, views, likes} })=> {
+const Profile = ({username, tag, location, image, stats : {followers, views, likes} })=> {
 
 return (
    <div>
         <div>
             <img 
-            src={avatar}
+            src={image}
             alt= "User avatar"
             />
             <p> {username}</p>   
-            <p>{tag}</p>
+            <p> @{tag}</p>
             <p>{location}</p>
         </div>
 

@@ -4,18 +4,20 @@ const FriendList = ({friends}) => {
     
 
 return (
-<>
+
     <ul>
-     {friends.map(item =>
-            ( <li key={item.id}>{item.avatar}{item.name}{item.isOnline}{item.id}</li>))}
-    <li>
-        <FriendListItem />
-    </li>
+        {friends.map((friend) => {
+              return <li key={friend.id}>
+                        <FriendListItem avatar={friend.avatar} name={friend.name} isOnline={friend.isOnline}/>
+                    </li>
+          }) 
+        }
     </ul>
-</>
 )
 }
-
 export default FriendList
+
+
+       {/* tekst /* <FriendListItem /> * */}
 
 

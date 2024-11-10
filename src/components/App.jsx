@@ -1,17 +1,15 @@
 // import { useState } from 'react'
-import './App.css'
-import Profile from './components/Profile/Profile'
-import userData from './userData.json'
-import FriendList from './components/FriendList/FriendList';
-import friends from './friends.json'
-import TransactionHistory from './components/TransactionHistory/TransactionHistory';
-import transactions from './transactions.json'
-
+import '../components/App.css';
+import Profile from '../components/Profile/Profile.jsx';
+import userData from '../userData.json';
+import FriendList from './FriendList/FriendList.jsx';
+import friends from '../friends.json';
+import TransactionHistory from './TransactionHistory/TransactionHistory.jsx';
+import transactions from '../transactions.json'
 
 function App() {
   return (
     <>
-    <h2>Profile</h2>
       <Profile
         name={userData.username}
         tag={userData.tag}
